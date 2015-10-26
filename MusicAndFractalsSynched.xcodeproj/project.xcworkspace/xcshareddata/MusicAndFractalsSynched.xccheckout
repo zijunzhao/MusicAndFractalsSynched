@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>03491CD0-F38A-4E9C-8849-75CD6235D0BF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BABE3E7AAED434386B4EA8E922CB5208FBEFD0FF</key>
+		<string>https://github.com/zijunzhao/MusicAndFractalsSynched.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MusicAndFractalsSynched.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BABE3E7AAED434386B4EA8E922CB5208FBEFD0FF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zijunzhao/MusicAndFractalsSynched.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BABE3E7AAED434386B4EA8E922CB5208FBEFD0FF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BABE3E7AAED434386B4EA8E922CB5208FBEFD0FF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MusicAndFractalsSynched</string>
+		</dict>
+	</array>
+</dict>
+</plist>

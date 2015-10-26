@@ -1,20 +1,23 @@
 #pragma once
 
 #include "ofMain.h"
+#include "MyThread.h"
 #include <stack>
 
 #define CC 512
 #define fftSize 2048
-typedef struct rgbStruct {
+
+typedef struct rgbStruct
+{
     int R;
     int G;
     int B;
     
 } RGB;
 
-class ofApp : public ofBaseApp{
-
-	public:
+class ofApp : public ofBaseApp
+{
+public:
 		void setup();
 		void update();
 		void draw();
@@ -23,7 +26,9 @@ class ofApp : public ofBaseApp{
         void resetColormap();
         double myMin(double x, double y, int n);
         double myMax(double x, double y, int n);
-    private:
+        void exit();
+    
+private:
         unsigned long c1;
         unsigned long c2;
         ofImage img;
@@ -42,3 +47,22 @@ class ofApp : public ofBaseApp{
         float * fftVals;
         ofSoundPlayer sonata;
 };
+
+
+//class MyThreaded: public ofThread
+//{
+//public:
+//    /// ...
+//    void threadedFunction()
+//    {
+//        while(isThreadRunning())
+//        {
+//            /// Threaded function here.
+//            
+//        }
+//    }
+//};
+
+
+
+MyThread thread;
